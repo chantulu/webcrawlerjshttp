@@ -1,0 +1,22 @@
+{
+  "name": "jscrawler",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "## how to build an nvm environment 1. create .nvmrc file 2. add the verison of node you want to the nvmrc file 3. run nvm install 4. run nvm use",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.0"
+  }
+}
